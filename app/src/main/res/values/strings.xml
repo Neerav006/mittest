@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MudraITSolution</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_invoice">AddInvoiceActivity</string>
+    <string name="title_activity_view_transaction">ViewTransactionActivity</string>
+    <string name="title_activity_transaction_detail">TransactionDetailActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_pdf_share">PdfShareActivity</string>
+    <string name="title_activity_pdf_view">PdfViewActivity</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="2dp"
+                android:id="@+id/cvAddInvoice"
+                app:cardUseCompatPadding="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:id="@+id/tvAddInVoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableTop="@drawable/addinvoice"
+                    android:drawablePadding="5dp"
+                    android:text="Add JobCard"
+                    android:textSize="14sp" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="2dp"
+                android:id="@+id/cvViewInvoice"
+                app:cardUseCompatPadding="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:id="@+id/tvViewInVoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableTop="@drawable/viewinvoice"
+                    android:drawablePadding="5dp"
+                    android:text="View JobCard"
+                    android:textSize="14sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="2dp"
+                android:id="@+id/cvTodayInvoice"
+                app:cardUseCompatPadding="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:drawablePadding="5dp"
+                    android:textSize="12sp"
+                    android:drawableTop="@drawable/todayreport"
+                    android:layout_gravity="center"
+                    android:text="Today's\nDelivery\nJobCard"
+                    android:id="@+id/tvViewTodayInvoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
